@@ -1,0 +1,71 @@
+/*
+font-family: 'IBM Plex Sans', sans-serif;
+*/
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 0px 0px 0px 0px;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 130px 3fr 1fr;
+    grid-template-rows: 100px 1fr 100px;
+}
+
+.header {
+    text-align: center;
+    color: white;
+    background-color: #122738;
+    grid-column: span 3;
+}
+
+.footer {
+    grid-column: span 3;
+    text-align: center;
+    background-color: #204662;
+    color: white;
+}
+
+.menu {
+    background-color: white;
+    padding: 0px 0px 10px 10px;
+}
+
+.note {
+    padding: 20px 0px 20px 20px;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    outline-offset: -5px;
+    background-color: #27506d;
+}
+
+.blank {
+    padding: 20px 0px 20px 20px;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    outline-offset: -5px;
+    background-color: #27506d;
+}
+
+.note p {
+    padding: 10px;
+    height: 75px;
+    min-width: 10em;
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+}
+
+.note button {
+    border-radius: 5px;
+    border: none;
+    margin: 5px 2px 0px 5px;
+    padding: 10px;
+}
+
+.other_buttons {
+    display: flex;
+    justify-content: center;
+}
