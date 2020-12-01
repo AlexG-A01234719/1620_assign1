@@ -19,32 +19,26 @@
                 My Notes
             </p>
             </h5>
-                <ul>
-                    <li>
-                        note one
-                    </li>
-                    <li>
-                        note two
-                    </li>
+                <ul id="titles">
+
                 </ul>
         </item>
         <item class="note">
-            <button style="background-color: #5c987c; color: white">
+            <button id="new_note" style="background-color: #5c987c; color: white">
                 New Note
             </button>
-            <button style="background-color: #696969; color: white">
+            <button id="dark_theme" style="background-color: #696969; color: white">
                 Dark Theme
             </button>
             <br>
-            <p>
-                This is a placeholder
-            </p>
+            <textarea id="textbox" type="text">
+            </textarea>
             <br>
             <div class="other_buttons">
-                <button class="save" style="background-color: #5c987c; color: white">
+                <button id="save" style="background-color: #5c987c; color: white">
                     Save
                 </button>
-                <button class="cancel" style="background-color: #d43a14; color: white;">
+                <button id="cancel" style="background-color: #d43a14; color: white;">
                     Cancel
                 </button>
             </div>
@@ -58,5 +52,6 @@
             <a href="https://linkedin.com"><img src="Images/linkedinlogo.png" alt="linkedinlogo" style="width: 25px; height: 25px;"></a>
         </item>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
